@@ -38,7 +38,7 @@ from pyafipws import wsfev1, rece1, rg3685
 #import wsmtx, recem
 #import wsct, recet
 #import wsfecred
-#import ws_sr_padron
+import ws_sr_padron
 #from pyafipws import pyfepdf
 #import pyemail
 #import pyi25
@@ -52,8 +52,8 @@ from pyafipws import wsfev1, rece1, rg3685
 #import wsremcarne
 #import wsremharina
 #import wsremazucar
-#import wscoc
-#import wscdc
+import wscoc
+import wscdc
 #import cot
 #import iibb
 #import trazamed
@@ -61,8 +61,8 @@ from pyafipws import wsfev1, rece1, rg3685
 #import trazarenpre
 #import trazafito
 #import trazavet
-#import padron
-#import sired
+import padron
+import sired
 
 data_files = [
     (".", ["licencia.txt",]),
