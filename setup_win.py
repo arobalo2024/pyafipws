@@ -33,17 +33,17 @@ from pyafipws.nsis import build_installer, Target
 #import pyrece
 from pyafipws import wsaa
 from pyafipws import wsfev1, rece1, rg3685
-import wsfexv1, recex1
-import wsbfev1, receb1
+#import wsfexv1, recex1
+#import wsbfev1, receb1
 #import wsmtx, recem
 #import wsct, recet
-import wsfecred
-import ws_sr_padron
+#import wsfecred
+#import ws_sr_padron
 #from pyafipws import pyfepdf
-import pyemail
-import pyi25
+#import pyemail
+#import pyi25
 #from pyafipws import pyqr
-import ws_sire
+#import ws_sire
 #import wsctg
 #import wslpg
 #import wsltv
@@ -52,17 +52,17 @@ import ws_sire
 #import wsremcarne
 #import wsremharina
 #import wsremazucar
-import wscoc
-import wscdc
+#import wscoc
+#import wscdc
 #import cot
-import iibb
+#import iibb
 #import trazamed
 #import trazaprodmed
 #import trazarenpre
 #import trazafito
 #import trazavet
-import padron
-import sired
+#import padron
+#import sired
 
 data_files = [
     (".", ["licencia.txt",]),
@@ -139,8 +139,8 @@ for mod in ['socks', 'dbhash', 'gdbm', 'dbm', 'dumbdbm', 'anydbm']:
 
 # don't pull in all this MFC stuff used by the makepy UI.
 excludes=["pywin", "pywin.dialogs", "pywin.dialogs.list", "win32ui",
-            "Tkconstants","Tkinter","tcl",
-            "_imagingtk", "PIL._imagingtk", "ImageTk", "PIL.ImageTk", "FixTk",
+##            "Tkconstants","Tkinter","tcl",
+##            "_imagingtk", "PIL._imagingtk", "ImageTk", "PIL.ImageTk", "FixTk",
             ]
 
 # basic options for py2exe
@@ -643,3 +643,4 @@ setup(name="PyAfipWs",
       keywords="webservice electronic invoice pdf traceability",
       **kwargs
       )
+
