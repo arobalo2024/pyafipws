@@ -38,7 +38,7 @@ from pyafipws import wsfev1, rece1, rg3685
 #import wsmtx, recem
 #import wsct, recet
 #import wsfecred
-#import ws_sr_padron
+import ws_sr_padron
 #from pyafipws import pyfepdf
 #import pyemail
 #import pyi25
@@ -53,7 +53,7 @@ from pyafipws import wsfev1, rece1, rg3685
 #import wsremharina
 #import wsremazucar
 #import wscoc
-#import wscdc
+import wscdc
 #import cot
 #import iibb
 #import trazamed
