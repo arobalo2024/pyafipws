@@ -30,7 +30,7 @@ from pyafipws.nsis import build_installer, Target
 # modulos a compilar y empaquetar (comentar si no se desea incluir):
 
 #import pyafipws
-#import pyrece
+import pyrece
 from pyafipws import wsaa
 from pyafipws import wsfev1, rece1, rg3685
 #import wsfexv1, recex1
@@ -40,8 +40,8 @@ from pyafipws import wsfev1, rece1, rg3685
 #import wsfecred
 #import ws_sr_padron
 #from pyafipws import pyfepdf
-#import pyemail
-#import pyi25
+import pyemail
+import pyi25
 #from pyafipws import pyqr
 #import ws_sire
 #import wsctg
@@ -52,17 +52,17 @@ from pyafipws import wsfev1, rece1, rg3685
 #import wsremcarne
 #import wsremharina
 #import wsremazucar
-#import wscoc
-#import wscdc
-#import cot
-#import iibb
+import wscoc
+import wscdc
+import cot
+import iibb
 #import trazamed
 #import trazaprodmed
 #import trazarenpre
 #import trazafito
 #import trazavet
-#import padron
-#import sired
+import padron
+import sired
 
 data_files = [
     (".", ["licencia.txt",]),
