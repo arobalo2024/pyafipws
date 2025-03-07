@@ -54,7 +54,7 @@ import ws_sire
 #import wsremazucar
 import wscoc
 import wscdc
-import cot
+#import cot
 import iibb
 #import trazamed
 #import trazaprodmed
