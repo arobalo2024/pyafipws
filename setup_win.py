@@ -33,17 +33,17 @@ from pyafipws.nsis import build_installer, Target
 #import pyrece
 from pyafipws import wsaa
 from pyafipws import wsfev1, rece1, rg3685
-#import wsfexv1, recex1
+import wsfexv1, recex1
 #import wsbfev1, receb1
 #import wsmtx, recem
 #import wsct, recet
 #import wsfecred
 import ws_sr_padron
-#from pyafipws import pyfepdf
-#import pyemail
-#import pyi25
+from pyafipws import pyfepdf
+import pyemail
+import pyi25
 #from pyafipws import pyqr
-#import ws_sire
+import ws_sire
 #import wsctg
 #import wslpg
 #import wsltv
