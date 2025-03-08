@@ -30,7 +30,7 @@ from pyafipws.nsis import build_installer, Target
 # modulos a compilar y empaquetar (comentar si no se desea incluir):
 
 #import pyafipws
-import pyrece
+#import pyrece
 from pyafipws import wsaa
 from pyafipws import wsfev1, rece1, rg3685
 import wsfexv1, recex1
